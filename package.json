@@ -1,0 +1,28 @@
+{
+	"name": "birthday-app",
+	"version": "0.0.1",
+	"license": "MIT",
+	"author": "Sonya Slegers",
+	"repository": {
+		"type": "git"
+	},
+	"main": "server.js",
+	"scripts": {
+		"dev": "nodemon server.js",
+		"start": "node server.js",
+		"test": "cross-env NODE_ENV=test mocha --file test/server.js --timeout 10000"
+	},
+	"dependencies": {
+		"dotenv": "^6.0.0",
+		"express": "^4.16.3",
+		"mongoose": "^5.1.4",
+		"morgan": "^1.9.0",
+		"npm": "^6.1.0"
+	},
+	"devDependencies": {
+		"chai": "^4.1.2",
+		"chai-http": "^4.0.0",
+		"cross-env": "^5.1.6",
+		"mocha": "^5.2.0"
+	}
+}
