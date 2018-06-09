@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Birthdays</title>
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+
+  <header role="banner">
+    <h1>Send Birthday Wishes to Your Friends!</h1>
+  </header>
+
+  <main role="main">
+    
+    <div class="friends-container">
+      <h2>Friends List</h2>
+    <!--
+      <form role="form" class="js-add-friend-form add-friend-form">
+        <label for="add-name">Name</label>
+        <input type="text" class="js-add-name add-name" id="add-name">
+        <label for="add-address">Address</label>
+        <input type="text" class="js-add-address add-address" id="add-address">
+        <label for="notes">Notes</label>
+        <input type="text" class="js-notes notes" id="notes">
+        <button role="button" type="submit">Add</button>
+      </form>
+      -->
+      
+        <button type="button" role="button" value="Add Friend">Add Friend</button>
+      
+      
+        <label for="sort-by-month">Sort By Month</label>
+        <select class="js-sort-by-month sort-by-month" id="sort-by-month">
+          <option value="January">January</option>
+          <option value="February">February</option>
+          <option value="March">March</option>
+          <option value="April">April</option>
+          <option value="May">May</option>
+          <option value="June">June</option>
+          <option value="July">July</option>
+          <option value="August">August</option>
+          <option value="September">September</option>
+          <option value="October">October</option>
+          <option value="November">November</option>
+          <option value="December">December</option>
+        </select>
+
+      
+      <ul class="js-friends-list friends-list">
+        <li>Friend 1</li>
+        <li>Friend 2</li>>
+      </ul>
+     
+    </div>
+
+    <div class="js-friend-info friend-info">
+      <span>Name</span>
+      <span>Birthday</span>
+      <address>Address</address>
+      <label for="note">Notes</label>
+      <input type="text" class="js-note note" id="note">
+      <button type="submit" class="js-edit-note edit-note">Edit</button>
+    </div>
+
+  </main>
+  
+  <script src="scripts/api.js"></script>
+  <script src="scripts/birthdays.js"></script> 
+  <script src="scripts/store.js"></script>
+  <script src="scripts/index.js"></script>
+
+</body>
+</html>
