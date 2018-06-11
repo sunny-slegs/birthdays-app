@@ -7,6 +7,7 @@ require('dontenv').config();
 const { PORT, MONGODB_URI } = require('./config');
 
 const mongoose = require('mongoose');
+mongoose.Promise = global.Promise;
 
 // Create an Express application
 const app = express();

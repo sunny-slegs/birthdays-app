@@ -2,42 +2,42 @@
   {
     "_id": "000000000000000000000000",
     "name": "Meredith Pierce",
-    "birthday": "date",
+    "birthday": "Dec 16",
     "address": "Washington, DC",
     "folderId": "111111111111111111111100"
   },
   {
     "_id": "000000000000000000000001",
     "name": "Clare Kruger",
-    "birthday": "date",
+    "birthday": "Jan 6",
     "address": "Washington, DC",
     "folderId": "111111111111111111111111"
   },
   {
     "_id": "000000000000000000000002",
     "name": "Nikita Salgoankar",
-    "birthday": "date",
+    "birthday": "Jan 22",
     "address": "Washington, DC",
     "folderId": "111111111111111111111102"
   },
   {
     "_id": "000000000000000000000003",
     "name": "Natalia KP",
-    "birthday": "date",
+    "birthday": "Jun 10",
     "address": "en route to Callifornia",
     "folderId": "111111111111111111111106"
   },
   {
     "_id": "000000000000000000000004",
     "name": "Mackenzie Chase",
-    "birthday": "date",
+    "birthday": "Apr 25",
     "address": "Irvine, CA",
     "folderId": "111111111111111111111104"
   },
   {
-    "_id": "000000000000000000000004",
+    "_id": "000000000000000000000005",
     "name": "Christina Gonerko",
-    "birthday": "date",
+    "birthday": "Nov 23",
     "address": "Silicon Valley",
     "folderId": "111111111111111111111110"
   }
